@@ -60,7 +60,7 @@ sudo pacman -S vala gtk4 base-devel
 1. Клонируйте репозиторий или распакуйте архив с исходным кодом:
    ```bash
    git clone https://github.com/danayer/Maitnik.git
-   cd maitnik
+   cd Maitnik
    ```
 
 2. Скомпилируйте программу с помощью Makefile:
