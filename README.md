@@ -252,8 +252,8 @@ SUBSYSTEM=="tty", ATTRS{idVendor}=="2341", ATTRS{idProduct}=="0043", MODE="0666"
 
 ## Авторы
 
-- Автор: [Danayer]
-- Контактный email: [DanayerOfficial@yandex.ru]
+- Автор: Danayer
+- Контактный email: DanayerOfficial@yandex.ru
 
 ## Участие в разработке
 
