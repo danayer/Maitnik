@@ -82,6 +82,34 @@ sudo pacman -S vala gtk4 base-devel
    sudo ./maitnik
    ```
 
+## Использование AppImage
+
+AppImage - это формат упаковки, который не требует установки и включает в себя все необходимые зависимости. Для использования AppImage:
+
+1. **Загрузка готового AppImage:** 
+   - Скачайте файл `Maitnik-x86_64.AppImage` с [официальной страницы релизов](https://github.com/username/maitnik/releases).
+   - Сделайте файл исполняемым:
+     ```bash
+     chmod +x Maitnik-x86_64.AppImage
+     ```
+   - Запустите программу:
+     ```bash
+     ./Maitnik-x86_64.AppImage
+     ```
+
+2. **Создание собственного AppImage:**
+   - Убедитесь, что у вас установлены необходимые инструменты для сборки:
+     ```bash
+     sudo apt install wget make valac libgtk-4-dev
+     ```
+   - Выполните скрипт сборки AppImage:
+     ```bash
+     bash build-appimage.sh
+     ```
+   - После успешного завершения сборки у вас появится файл `Maitnik-x86_64.AppImage`
+
+AppImage автоматически будет запрашивать повышение привилегий (через pkexec) для доступа к последовательным портам.
+
 ## Использование
 
 ### Запуск программы
