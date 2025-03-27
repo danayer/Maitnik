@@ -87,7 +87,7 @@ sudo pacman -S vala gtk4 base-devel
 AppImage - это формат упаковки, который не требует установки и включает в себя все необходимые зависимости. Для использования AppImage:
 
 1. **Загрузка готового AppImage:** 
-   - Скачайте файл `Maitnik-x86_64.AppImage` с [официальной страницы релизов](https://github.com/username/maitnik/releases).
+   - Скачайте файл `Maitnik-x86_64.AppImage` с [официальной страницы релизов](https://github.com/danayer/maitnik/releases).
    - Сделайте файл исполняемым:
      ```bash
      chmod +x Maitnik-x86_64.AppImage
